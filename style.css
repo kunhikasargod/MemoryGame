@@ -18,21 +18,23 @@ h3 {
 #message{
     color: #ff0000;
     font-size: 23px;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, .6);
 }
 #result{
     color: whitesmoke;
     font-size: 25px;
+    text-shadow: 0 1px 2px;
 }
 .resultM {
     color: darkblue;
     font-size: 25px;
+    text-shadow: 0 1px 2px;
 }
 .container{
     width: 95%;
     max-width: 600px;
     min-width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
